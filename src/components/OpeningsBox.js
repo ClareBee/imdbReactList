@@ -8,7 +8,7 @@ class OpeningsBox extends React.Component {
   render(){
     return(
     <div className="displayBox">
-      <p>This is the opening box</p>
+      <MoviesList />
     </div>
     );
   }
