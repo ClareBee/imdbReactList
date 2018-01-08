@@ -18,8 +18,8 @@ class OpeningsBox extends React.Component {
       </header>
       <MoviesList data={this.state.data}/>
       <footer>
-      <button>Get Showtimes >></button>
-    </footer>
+        <button id="showtimesBtn">Get Showtimes >></button>
+      </footer>
     </section>
     );
   }

@@ -21,8 +21,12 @@
 .App-intro {
   font-size: large;
 }
+* {
+  font-family: 'Verdana', Arial, sans-serif;
+}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#showtimesBtn {
+  color: white;
+  background-color: #0065B7;
+
 }
