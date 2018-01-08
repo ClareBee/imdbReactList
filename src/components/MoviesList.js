@@ -9,7 +9,8 @@ class MoviesList extends React.Component{
   render(){
     return(
       <React.Fragment>
-        <p>This is the movies list</p>
+        <Movie />
+        <Movie />
       </React.Fragment>
     );
   }
