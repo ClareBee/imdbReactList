@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import OpeningsBox from './OpeningsBox';
+import OpeningsBox from './components/OpeningsBox';
 import './App.css';
 
 class App extends Component {
