@@ -12,10 +12,15 @@ class OpeningsBox extends React.Component {
   }
   render(){
     return(
-    <div className="displayBox">
-      <h1>UK Openings This Week</h1>
+    <section className="displayBox">
+      <header>
+        <h1>UK Openings This Week</h1>
+      </header>
       <MoviesList data={this.state.data}/>
-    </div>
+      <footer>
+      <button>Get Showtimes >></button>
+    </footer>
+    </section>
     );
   }
 }
