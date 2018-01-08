@@ -10,7 +10,7 @@ class OpeningsBox extends React.Component {
     <div className="displayBox">
       <p>This is the opening box</p>
     </div>
-  )
+    );
   }
 }
 
