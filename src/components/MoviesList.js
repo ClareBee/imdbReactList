@@ -6,9 +6,14 @@ class MoviesList extends React.Component{
     const movieNodes = this.props.data.map(movie => {
       return(
         <section class="movieItem">
-          <img src="plusSign.jpg"/><div class="movieDetails"><Movie showTime={movie.showTime} key={movie.id}><p class="title">{movie.title}</p><a class="times" href="#">Showtimes</a></Movie>
-        </div>
-      </section>
+          <img src="plusSign.jpg"/>
+          <div class="movieDetails">
+            <Movie showTime={movie.showTime} key={movie.id}>
+              <p class="title">{movie.title}</p>
+              <a class="times" href="#">Showtimes</a>
+            </Movie>
+          </div>
+        </section>
       );
     });
     return(

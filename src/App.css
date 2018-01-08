@@ -28,11 +28,13 @@ body {
 a {
   display: inline-block;
   text-decoration: none;
+  color: #0065B7;
 }
 
 h1 {
   color: black;
   font-weight: 200;
+  padding-top: 20px;
 }
 p {
   margin: 0;
@@ -41,12 +43,13 @@ p {
 .displayBox {
   width: 45%;
   margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 .movieItem {
   display: flex;
   flex-flow: row nowrap;
-
 }
 .movieDetails{
   width: 100%;
@@ -58,6 +61,7 @@ p {
   position: relative;
   top: 3px;
   align-content: stretch;
+  padding-right: 3px;
 }
 
 .title {
@@ -65,10 +69,14 @@ p {
 }
 img {
   width: 3.5rem;
+  height: 3.5rem;
+  padding-right: 2px;
 }
 
 hr {
   margin-bottom: 20px;
+  border: 1px solid lightgrey;
+  width: 90%;
 }
 
 #showtimesBtn {
