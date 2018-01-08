@@ -21,12 +21,70 @@
 .App-intro {
   font-size: large;
 }
-* {
+body {
   font-family: 'Verdana', Arial, sans-serif;
+  color:  #0065B7;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1 {
+  color: black;
+  font-weight: 200;
+}
+p {
+  margin: 0;
+}
+
+.displayBox {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.movieItem {
+  display: flex;
+  flex-flow: row nowrap;
+
+}
+.movieDetails{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.times {
+  position: relative;
+  top: 3px;
+  align-content: stretch;
+}
+
+.title {
+  font-size: 1.3rem;
+}
+img {
+  width: 3.5rem;
+}
+
+hr {
+  margin-bottom: 20px;
 }
 
 #showtimesBtn {
+  width: 100%;
   color: white;
   background-color: #0065B7;
+  padding: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+}
 
+#linkArrows {
+  color: darkgrey;
+}
+
+#linkText {
+  padding-top: 25px;
+  padding-bottom: 40px;
 }
